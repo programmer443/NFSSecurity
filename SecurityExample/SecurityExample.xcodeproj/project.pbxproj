@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E05BBE272E0ED24500D8493E /* NFSSecurity in Frameworks */ = {isa = PBXBuildFile; productRef = E05BBE262E0ED24500D8493E /* NFSSecurity */; };
 		E0A97EB52E0E6F1800EE2BD1 /* NFSSecurity in Frameworks */ = {isa = PBXBuildFile; productRef = E0A97EB42E0E6F1800EE2BD1 /* NFSSecurity */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05BBE272E0ED24500D8493E /* NFSSecurity in Frameworks */,
 				E0A97EB52E0E6F1800EE2BD1 /* NFSSecurity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +73,7 @@
 			name = SecurityExample;
 			packageProductDependencies = (
 				E0A97EB42E0E6F1800EE2BD1 /* NFSSecurity */,
+				E05BBE262E0ED24500D8493E /* NFSSecurity */,
 			);
 			productName = SecurityExample;
 			productReference = E0A97EA52E0E6EED00EE2BD1 /* SecurityExample.app */;
@@ -101,6 +104,7 @@
 			mainGroup = E0A97E9C2E0E6EED00EE2BD1;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				E05BBE252E0ED24500D8493E /* XCLocalSwiftPackageReference "../../NFSSecurity" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E0A97EA62E0E6EED00EE2BD1 /* Products */;
@@ -335,7 +339,18 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		E05BBE252E0ED24500D8493E /* XCLocalSwiftPackageReference "../../NFSSecurity" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../NFSSecurity;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		E05BBE262E0ED24500D8493E /* NFSSecurity */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NFSSecurity;
+		};
 		E0A97EB42E0E6F1800EE2BD1 /* NFSSecurity */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NFSSecurity;

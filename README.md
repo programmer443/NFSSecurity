@@ -210,8 +210,8 @@ The included example app demonstrates all features with a modern, user-friendly 
 - **Security Checks**: Jailbreak, debugger, proxy, integrity, network
 - **Copy Buttons**: Easily copy any result
 
-![NFSSecurity Example App Screenshot](docs/screenshot.png)
-
+## 📸 Screenshots
+<img src="docs/screenshot.png" width="250" height="500" alt="NFSSecurity ScreenShot" />
 ---
 
 ## 🔒 Security Best Practices
